@@ -1,10 +1,10 @@
-<img src="./wiki/preview.png" width="100%" />
+<img src="https://github.com/uiriansan/LainGrubTheme/blob/main/wiki/preview.png" width="100%" />
 
 This theme was designed for a 1920x1080 display. Refer to the [wiki](https://github.com/uiriansan/LainGrubTheme/wiki/Customizing#resolution) to see how to customize it for a different resolution.
 
 # Installation
 ```bash
-$ git clone https://github.com/uiriansan/LainGrubTheme && cd LainGrubTheme && ./install.sh | bash
+git clone --depth=1 https://github.com/uiriansan/LainGrubTheme && cd LainGrubTheme && ./install.sh
 ```
 
 ### Manual installation
@@ -12,19 +12,19 @@ $ git clone https://github.com/uiriansan/LainGrubTheme && cd LainGrubTheme && ./
 > [!NOTE]
 > You can also download the compressed files from the [latest release](https://github.com/uiriansan/LainGrubTheme/releases/latest).
 ```bash
-$ git clone --depth=1 https://github.com/uiriansan/LainGrubTheme.git
-$ cd LainGrubTheme
+git clone --depth=1 https://github.com/uiriansan/LainGrubTheme.git
+cd LainGrubTheme
 ```
 2. Copy ```lain/``` into ```/boot/grub/themes/```:
 ```bash
-$ sudo cp -rf lain /boot/grub/themes/
+sudo cp -rf lain /boot/grub/themes/
 ```
 3. In ```/etc/default/grub```, uncomment the line that says "GRUB_THEME" and add the path to ```theme.txt```:
 ```bash
-$ sudoedit /etc/default/grub
+sudoedit /etc/default/grub
 
-# It should look like this:
-GRUB_THEME="/boot/grub/themes/lain/theme.txt"
+    # It should look like this:
+    GRUB_THEME="/boot/grub/themes/lain/theme.txt"
 ```
 4. Set ```GRUB_GFXMODE=``` to the correct resolution:
 ```bash

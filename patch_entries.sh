@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 
 # Removing the partition names from os-prober entries
 sudo sed -i 's/onstr="$(gettext_printf "(on %s)" "${DEVICE}")"/onstr=""/g' /etc/grub.d/30_os-prober

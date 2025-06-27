@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 
 bgreen="\033[1;32m"
 bred="\033[1;31m"
