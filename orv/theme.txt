@@ -2,7 +2,7 @@
 title-text: ""
 desktop-image: "assets/orv.png"
 desktop-color: "#000000"
-terminal-font: "Boruna Regular 14"
+terminal-font: "Terminus Regular 14"
 terminal-box: "terminal_box_*.png"
 terminal-left: "-92"
 terminal-top: "52"
@@ -16,7 +16,7 @@ terminal-border: "0"
 	align = "center"
 	text = "Choose an OS"
 	color = "#E4CBB6"
-	font = "Boruna Bold 20"
+	font = "Ubuntu Bold 20"
 }
 # menu
 + boot_menu {
@@ -24,8 +24,8 @@ terminal-border: "0"
     top = 452
     width = 385
     height = 200
-    item_font = "Boruna Regular 17"
-    item_color = "#E4CBB6"
+    item_font = "Ubuntu Regular 17"
+    item_color = "#2B2C28"
     selected_item_color = "#D2738A"
     icon_width = 30
     icon_height = 30
@@ -50,5 +50,5 @@ terminal-border: "0"
     id = "__timeout__"
     text = "Booting in %d seconds..."
     color = "#CCCCCC"
-    font = "Boruna Regular 17"
+    font = "Ubuntu Regular 17"
 }
