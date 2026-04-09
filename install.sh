@@ -7,7 +7,7 @@ reset="\033[0m"
 
 SHPATH=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &>/dev/null && pwd)
 
-sudo cp -r -f $SHPATH/lain /boot/grub/themes/
+sudo cp -r -f $SHPATH/orv /boot/grub/themes/
 sudo sed -i 's/^.*GRUB_THEME=.*/GRUB_THEME="\/boot\/grub\/themes\/orv\/theme.txt"/g' /etc/default/grub
 
 # Change resolution
@@ -18,4 +18,4 @@ sudo sed -i 's/^GRUB_DEFAULT=.*/GRUB_DEFAULT=saved/g' /etc/default/grub
 sudo sed -i 's/^#GRUB_SAVEDEFAULT=.*/GRUB_SAVEDEFAULT=true/g' /etc/default/grub
 
 echo -e "${bgreen}GRUB theme installed!${reset}"
-echo -e "Run sudo grub-mkconfig /boot/grub/grub.cfg to update the grub configuration"
+echo -e "Run sudo grub-mkconfig -o /boot/grub/grub.cfg to update the grub configuration"

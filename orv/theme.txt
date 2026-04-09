@@ -13,7 +13,7 @@ terminal-border: "0"
 + label {
 	left = 766
 	top = 384
-	align = "center"
+	align = "left"
 	text = "Choose an OS"
 	color = "#E4CBB6"
 	font = "Ubuntu Bold 20"
@@ -24,7 +24,7 @@ terminal-border: "0"
     top = 452
     width = 385
     height = 200
-    item_font = "Ubuntu Regular 17"
+    item_font = "Ubuntu Bold 20"
     item_color = "#2B2C28"
     selected_item_color = "#D2738A"
     icon_width = 30
@@ -49,6 +49,6 @@ terminal-border: "0"
     align = "left"
     id = "__timeout__"
     text = "Booting in %d seconds..."
-    color = "#CCCCCC"
+    color = "#2B2C28"
     font = "Ubuntu Regular 17"
 }
