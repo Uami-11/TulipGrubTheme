@@ -39,4 +39,5 @@ There is a quick guide on how to customize this theme further in the [wiki](http
 
 # Credits
 Check out [uiriansan](https://github.com/uiriansan/LainGrubTheme)! Star them, they are very awesome
+
 Wallpaper from [WallpaperAccess](https://wallpaperaccess.com/omniscient-readers-viewpoint), if you want other cool orv wallpapers, you can check it out there. And you can plop it in orv/assets/ and overwrite orv.png!
